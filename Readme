@@ -1,0 +1,15 @@
+This is essentially the developers version of Slingshot 0.8.1p
+
+http://www.slingshot-game.org
+
+In the slingshot/ directory you'll find the game, as it's in python, nothing more is required.
+
+In the data-source/ directory you'll find the graphics in the best formats possible for
+editing - see the readme file in that directory.
+
+Please let us know if you package/modify/rerelease Slingshot, you're not obliged to,
+but we like to know what's going on.
+
+Have fun, and above all, abide by the GNU GPL!
+
+:-)

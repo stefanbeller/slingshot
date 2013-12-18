@@ -1,0 +1,18 @@
+This should be a complete collection of the files required to modify/translate the graphical data for the game Slingshot.
+
+All of these graphics are licensed under the GNU General Public License.
+
+There are three file formats used here:
+png - where no more editable format is available, the png image format is used.
+xcf - these images are layered editable bitmaps, use the GIMP to edit them.
+xar - these are vector graphics files, use Xara Xtreme for editing.
+
+Note about the *.xar files:
+Xara Xtreme is now open source (at least, the Linux version is, and it's available at:
+http://www.xaraxtreme.org/
+Use Xara for editing the *.xar files, to then use them in the game, you'll need to
+export the image to a png.
+
+Have fun, and above all, abide by the GNU GPL!
+
+:-)
