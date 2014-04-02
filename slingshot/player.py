@@ -239,7 +239,7 @@ class Player(pygame.sprite.Sprite):
 			return False
 		x = x - 1
 		y = y - 1
-		if not self.image.get_at((x,y)) == (0,0,0,0):
+		if not self.image.get_at((int(x),int(y))) == (0,0,0,0):
 			self.shot = True
 			return True
 		else:

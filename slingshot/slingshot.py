@@ -441,7 +441,7 @@ class Game:
 				tmp.set_colorkey((0,0,0))
 				tmp = tmp.convert_alpha()
 				rect = tmp.get_rect()
-				s = (100 - self.show_round) * rect.h / 25
+				s = int((100 - self.show_round) * rect.h / 25)
 				tmp = pygame.transform.scale(tmp, (rect.w / rect.h * s, s ))
 				rect = tmp.get_rect()
 				rect.center = (399,299)

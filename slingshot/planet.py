@@ -56,7 +56,8 @@ class Planet(pygame.sprite.Sprite):
 				if d < (self.r + p.get_radius()) * 1.5 + 0.1 * (self.mass + p.get_mass()):
 					positioned = False
 		
-		s = round(2 * self.r / 0.96)
+		s = int(round(2 * self.r / 0.96))
+		print s, type(s)
 		self.orig = pygame.transform.scale(self.image, (s, s))
 		
 		self.image = self.orig
